@@ -1,9 +1,59 @@
 body {
     background: rgb(2,0,36);
-    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(238,212,174,1) 0%, rgba(160,209,217,1) 100%); 
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(238,212,174,1) 0%, rgba(160,209,217,1) 100%); 
     margin: 5%;
 }
 
 .container { 
     display: inline-block;
+}
+
+.menu {
+    display: flex;
+    font-size: large;
+    gap: 1%;
+}
+
+h1 {
+    font-size: 6ch;
+}
+
+img {
+    width: 500px;
+}
+
+.content {
+    display: flex;
+    
+}
+
+iframe {
+    width: 330px; 
+    height: 150px;
+}
+
+.location-info p {
+    display: flex;
+    justify-content: center;
+}
+
+.logos {
+    gap: 1%;
+    display: flex;
+    justify-content: center;
+    margin: 4%;
+}
+
+.logos img {
+    width: 50px;
+    height: 50px;
+}
+
+.web-content {
+    gap: 1%;
+    display: flex;
+}
+
+.multiline {
+    white-space: pre-wrap;
 }
